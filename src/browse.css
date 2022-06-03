@@ -1,0 +1,60 @@
+.head {
+  padding: 70px 0px 20px 0px;
+  background-image: linear-gradient(90deg, #03043b, #2b0202);
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+.head input {
+  background-color: transparent;
+  border: 1px solid rgb(167, 160, 160);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+}
+.head button {
+  padding: 12px 40px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  color: rgb(209, 201, 201);
+  background-color: rgba(250, 246, 246, 0.2);
+  backdrop-filter: blur(5px);
+}
+.head button:hover {
+  border: 1px solid white;
+  color: white;
+}
+hr {
+  color: gray;
+}
+.genre {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.genre button {
+  margin: 5px 10px;
+  border: 1px solid white;
+  font-weight: 500;
+  border-radius: 30px;
+  background: transparent;
+  font-size: 18px;
+}
+.genre button:hover {
+  background-image: linear-gradient(90deg, #03043b, #2b0202);
+}
+.genretitle {
+  display: block;
+  padding: 10px 0px 20px 0px;
+  font-size: 25px;
+}
+.genrebox {
+  background: rgba(182, 177, 177, 0.205);
+  border-radius: 20px;
+  margin: 20px 10px;
+}

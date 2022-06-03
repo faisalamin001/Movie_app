@@ -1,0 +1,23 @@
+.about {
+  padding-top: 50px;
+  background-image: linear-gradient(90deg, #03043b, #2b0202);
+  color: white;
+}
+body h1 {
+  font-size: 70px;
+  text-align: center;
+  font-weight: 800;
+}
+body p {
+  padding: 30px 100px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-align: left;
+  word-spacing: 2px;
+  color: rgb(156, 150, 150);
+}
+@media (max-width: 500px) {
+  body p {
+    padding: 20px 10px;
+  }
+}

@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.detail-box {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 10px;
+}
+.text {
+  width: 600px;
+  margin-left: 50px;
+  color: white;
+}
+.name {
+  font-size: 55px;
+  font-weight: 700;
+}
+.rating {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 0px;
+}
+.desc {
+  font-size: 15px;
+}
+.text p {
+  margin: 0;
+  color: white;
+  padding: 0;
+}
+.movie-detail {
+  display: flex;
+  justify-content: space-around;
+}
+.text button {
+  padding: 10px 230px;
+  background: red;
+  color: white;
+  border: navajowhite;
+  font-weight: 600;
+  font-size: 16px;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+.section3 {
+  height: 50px;
+  width: 1px;
+  border-radius: 10px;
+  padding: 0.7px;
+  background: white;
+}
+.img img {
+  height: 400px;
+}

@@ -1,0 +1,64 @@
+.nav {
+  display: flex;
+  width: 100%;
+  background: black;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px;
+  position: relative;
+}
+.logo h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: red;
+}
+.menu a {
+  text-decoration: none;
+  padding: 20px 15px;
+  font-size: 20px;
+  color: gray;
+  font-weight: 600;
+}
+.menu a:hover {
+  color: white;
+}
+.icon {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 40px;
+  cursor: pointer;
+  display: none;
+}
+.resmenu {
+  height: 100vh;
+  width: 100%;
+  background: black;
+  color: white;
+  text-align: center;
+  position: fixed;
+  z-index: 10;
+  margin-top: -5px;
+}
+.resmenu a {
+  display: block;
+  padding: 30px 0px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .nav {
+    justify-content: space-between;
+  }
+  .menu {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+}
